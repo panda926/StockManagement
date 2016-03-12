@@ -6,7 +6,7 @@
 Features
 
 1. Can read product info by Barcode scanner.
-2. Check stock amount reamins in Warehouse.
+2. Check stock amount remains in Warehouse.
 3. Can upload inventory to Server.
 ```
   <img src="https://cloud.githubusercontent.com/assets/17757913/13722335/09028e00-e87d-11e5-8a32-3a7142adf19a.png" width="200"/>
