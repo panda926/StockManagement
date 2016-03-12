@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="200dip"
+        android:background="@drawable/border_dialog"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:src="@drawable/store32" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left|center_vertical"
+                android:text="@string/msg_notification"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.02"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dip"
+            android:background="#dfdfe4"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bt_left"
+                android:layout_width="100dp"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dip"
+                android:text="네" />
+
+            <Button
+                android:id="@+id/bt_right"
+                android:layout_width="100dp"
+                android:layout_height="40dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="40dip"
+                android:text="아니요" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" 
+    
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/stockback" >
+
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="20"
+	    android:orientation="horizontal" >
+	    
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:layout_height="match_parent" />
+        
+        <Button
+	        android:id="@+id/btn_getstock"
+	        android:layout_width="0dp"
+	        android:layout_weight="30"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dip"
+	        android:text="재고조사" 
+	        android:background="@drawable/button_selector_back_blue"
+	        android:textColor="@color/color_button_text"
+        />
+        
+        <Button
+	        android:id="@+id/btn_movestock"
+	        android:layout_width="0dp"
+	        android:layout_weight="30"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dip"
+	        android:layout_marginLeft="5dip"
+	        android:text="재고이동" 
+	        android:background="@drawable/button_selector_back_blue"
+	        android:textColor="@color/color_button_text"
+        />
+        
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:layout_height="match_parent" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="70"
+	    android:orientation="horizontal" >
+	    
+    </LinearLayout>
+    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="10"
+	    android:orientation="horizontal" >
+	    
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="match_parent" />
+        
+        <Button
+	        android:id="@+id/btn_stock"
+	        android:layout_width="0dp"
+	        android:layout_weight="25"
+	        android:layout_height="wrap_content"
+	        android:text="조 회" 
+	        android:background="@drawable/button_selector_back_blue"
+	        android:textColor="@color/color_button_text"
+        />
+        
+        <Button
+	        android:id="@+id/btn_stock_cancel"
+	        android:layout_width="0dp"
+	        android:layout_weight="25"
+	        android:layout_height="wrap_content"			android:layout_marginLeft="5dip"		
+	        android:text="닫 기" 
+	        android:background="@drawable/button_selector_back_blue"
+	        android:textColor="@color/color_button_text"
+        />
+        
+    </LinearLayout>
+
+</LinearLayout>

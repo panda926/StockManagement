@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rose.stockmanagement"
+    android:versionCode="1"
+    android:versionName="7.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/store32"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".StockActivity"
+            android:label="@string/title_activity_stock"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".StockInventory"
+            android:label="@string/title_activity_stock_inventory" >
+        </activity>
+        <activity
+            android:name=".StockInventoryList"
+            android:label="@string/title_activity_stock_inventory" >
+        </activity>
+        <activity
+            android:name=".StockInventoryDetail"
+            android:label="@string/title_activity_stock_inventory" >
+        </activity>
+        <activity
+            android:name=".StockInventoryReplaceNew"
+            android:label="@string/title_activity_stock_inventory_replace_new" >
+        </activity>
+        <activity
+            android:name=".StockReport"
+            android:label="@string/title_activity_stock_report" >
+        </activity>
+        <activity
+            android:name=".StockReportList"
+            android:label="@string/title_activity_stock_report_list" >
+        </activity>
+        <activity
+            android:name=".StockInventoryReplaceList"
+            android:label="@string/title_activity_stock_inventory_replace_list" >
+        </activity>
+        <activity
+            android:name=".StockInventoryReplaceDetail"
+            android:label="@string/title_activity_stock_inventory_replace_detail" >
+        </activity>
+        <activity
+            android:name=".StockInventoryProc"
+            android:label="@string/title_activity_stock_inventory_proc" >
+        </activity>
+        <activity
+            android:name=".BarcodeSelect"
+            android:label="@string/title_activity_barcode_select" >
+        </activity>
+    </application>
+
+</manifest>
