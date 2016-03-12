@@ -12,8 +12,8 @@ public class Common {
     public static final String _ApkName = "StockManagement.apk";
     public static final String _DBServerIP = "needplus.co.kr";
 	public static final String _DBName = "CRASP_FSSNL_NEW";
-	public static final String _DBAccount = "sa";
-	public static final String _DBPassword = "NeedPlus1102";
+	public static final String _DBAccount = "";
+	public static final String _DBPassword = "";
 	public static final String _DBTableName = "tblPhoneInfo";
 
 }
